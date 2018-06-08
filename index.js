@@ -12,7 +12,6 @@ var formData = querystring.stringify(form);
 var contentLength = formData.length;
 
 var form = {
-    //    from: '393337933176',
     to: phonenumber,
     text: messaggio
 };
